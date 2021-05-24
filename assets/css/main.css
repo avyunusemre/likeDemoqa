@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #378ec4;
+  margin-bottom: 2rem;
+}
+
+.selenium-logo img {
+  object-fit: cover;
+  height: 20rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: bold;
+  height: 4rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card svg {
+  height: 10rem;
+  border: 1px solid #378ec4;
+  border-radius: 100%;
+}
+
+.card-body p {
+  height: 7.5rem;
+}
