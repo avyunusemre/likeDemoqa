@@ -19,57 +19,65 @@
   justify-content: center;
   width: 100%;
   height: 7rem;
-  background-image: url("/com.demoqa/text_box/img/pattern.jpg");
+  background-image: url("../img/pattern.jpg");
 }
 
 .header_text {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 2rem;
-  color: rgba(0, 0, 0, 0.603);
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.295);
+  font-weight: 300;
 }
 
 .main_context {
   display: flex;
   flex-direction: row;
   margin: 1rem;
+  min-height: 80vh;
 }
 
 .navbar {
-  border: 0.1rem solid grey;
-  border-radius: 5px;
   height: 40rem;
   width: 27rem;
   padding: 1rem;
 }
 
 .navbar_menu {
-  height: 39.5rem;
+  border: 0.1rem solid rgb(182, 182, 182);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .menu_header {
   border: 0.1rem solid grey;
   padding: 1rem;
   background-color: grey;
+  margin: 0.3rem;
 }
 
 .menu_header a {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
+  width: 27rem;
 }
 
 .menu_list {
-  width: 100%;
+  width: 27rem;
   margin-top: 4px;
+  display: none;
 }
 
 .menu_list ul {
   display: block;
   list-style-type: none;
-  margin-bottom: 4px;
-  margin-top: 4px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 20rem;
 }
 
 .menu_list ul li {
@@ -80,17 +88,35 @@
   height: 3.2rem;
   width: 100%;
   padding: 1rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .menu_list ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .menu_list ul li i {
   padding-top: 2px;
   margin-right: 3px;
+}
+
+.btn-elements {
+  padding: 0.5rem;
+  margin-left: 11rem;
+  background-color: grey;
+  border: none;
+}
+
+.btn-elements:hover {
+  cursor: pointer;
+}
+
+.elements-svg:hover {
+  cursor: pointer;
 }
 
 .form {
